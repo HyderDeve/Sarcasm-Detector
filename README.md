@@ -28,7 +28,7 @@ The Streamlit app loads `Urdu_Sarcasm_Detector.keras`, accepts an Urdu sentence,
 ## Dataset notes
 
 - `Urdu_dataset.csv` contains 50 labeled examples.
-- Labels in the repository use `1` for negative and `0` for positive.
+- Labels in the repository use `1` for negative and `0` for positive, which is an inverted encoding compared with some common sentiment-analysis conventions.
 - `samples_copy.txt` mirrors the same style of examples and can be used to understand the dataset format.
 
 ## Preprocessing
